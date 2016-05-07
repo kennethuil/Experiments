@@ -1,0 +1,11 @@
+.vs/
+AutofacTest/bin/
+AutofacTest/obj/
+NUnit3Tests/bin/
+NUnit3Tests/obj/Debug/NUnit3Tests.dll
+NUnit3Tests/obj/Debug/NUnit3Tests.fsproj.FileListAbsolute.txt
+NUnit3Tests/obj/
+**/bin
+Tests/obj/Debug/Tests.dll
+**/obj/
+packages/
