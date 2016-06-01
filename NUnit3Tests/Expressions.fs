@@ -6,6 +6,12 @@ module Expressions =
     open System
     //open Microsoft.FSharp.Quotations
 
+    // Automatic generalization doesn't work with arithmetic operators for some reason.
+    let inline twice x = x + x
+
+    let runTwice () =
+        twice 2.0 |> Console.WriteLine
+        twice 2 |> Console.WriteLine
 
     type Expr = 
         static member Quote<'a, 'b>(e:Expression<System.Func<'a,'b>>) = e
